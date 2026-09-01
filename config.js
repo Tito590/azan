@@ -11,7 +11,7 @@ const CONFIG = {
 
   // Setelah website online, isi dengan URL final website.
   // Contoh: https://username.github.io/kamanika-argopuro-ar/
-  publicUrl: "PASTE_PUBLIC_URL_HERE",
+  publicUrl: "https://tito590.github.io/azan/",
 
   farmerGreeting:
     "Halo, Teman Ngopi! Saya dari lereng Argopuro. Terima kasih sudah menikmati hasil kerja kami.",
@@ -19,5 +19,5 @@ const CONFIG = {
   farmerStory:
     "Kopi Argopuro Natural ini membawa cerita dari kebun, proses natural, sampai ke cangkir Anda.",
 
-  shopUrl: "#"
+  shopUrl: "https://lynk.id/kamanika-roast/m72k1e0244e2"
 };
