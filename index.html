@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<meta name="theme-color" content="#090609">
+<title>Kamanika — Argopuro Natural AR</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <video id="camera" autoplay muted playsinline></video>
+  <div class="camera-shade"></div>
+
+  <header class="topbar">
+    <div class="brand">KAMANIKA <span>ROASTERY</span></div>
+  </header>
+
+  <section id="permission" class="permission">
+    <div class="permission-card">
+      <div class="mark">K</div>
+      <div class="eyebrow">KAMANIKA AR · ARGOPURO NATURAL</div>
+      <h1>Temui Petaninya.</h1>
+      <p>Izinkan kamera untuk bertemu petani yang berada di balik secangkir kopi Argopuro Natural.</p>
+      <button id="allowBtn" class="primary">AKTIFKAN KAMERA</button>
+      <small>Setelah diizinkan, petani langsung muncul.</small>
+    </div>
+  </section>
+
+  <main id="ar" class="ar hidden">
+    <div id="farmer" class="farmer">
+      <img id="farmerFrame" alt="Petani Argopuro">
+    </div>
+
+    <div class="pouch">
+      <img id="pouchImg" alt="Kamanika Argopuro Natural">
+    </div>
+
+    <div class="speech">
+      <div class="speech-tail"></div>
+      <div class="speech-title">Halo, Teman Ngopi!</div>
+      <div id="speechText"></div>
+    </div>
+
+    <div class="bottom-card">
+      <div>
+        <span class="eyebrow">SPECIALTY COFFEE</span>
+        <strong>Argopuro Natural</strong>
+        <small>Natural · Berries · Floral Hint · Honey</small>
+      </div>
+      <button id="buyBtn">BELI ROASTBEAN</button>
+    </div>
+  </main>
+
+  <div id="toast" class="toast"></div>
+</div>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
