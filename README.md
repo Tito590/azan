@@ -39,3 +39,7 @@ Pada iPhone, browser dapat meminta izin Motion & Orientation setelah tombol AR d
 Jika browser tidak memberikan sensor orientation, panorama masih dapat tampil tetapi tidak otomatis mengikuti putaran HP.
 
 Three.js dimuat dari jsDelivr.
+
+
+## Perbaikan layar hitam
+Versi ini memperbaiki konfigurasi material sphere panorama. Sphere sudah dibalik untuk dilihat dari dalam, sehingga material menggunakan `FrontSide` (bukan `BackSide`). Ini mencegah panorama menjadi hitam karena back-face culling.
